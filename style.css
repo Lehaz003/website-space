@@ -1,0 +1,137 @@
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  color: rgb(250, 250, 250);
+}
+
+h1 {
+  margin: 0;
+}
+
+.title {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.page-preview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  background-color: #ffbb00;
+
+  background-image: url("https://images4.alphacoders.com/936/936378.jpg");
+  background-size: cover;
+}
+
+.container-preview {
+  width: 600px;
+  text-align: center;
+}
+
+.page-one {
+  min-height: 100%;
+  background-color: rgb(255, 0, 0);
+}
+
+.button {
+  font-size: 24px;
+  padding: 10px 30px;
+  color: #111111;
+  background-color: #ff0000;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #ff0000;
+}
+
+.input-email {
+  font-size: 24px;
+  padding: 10px 12px;
+}
+
+.description {
+  font-size: 20px;
+  font-weight: 700;
+}.about {
+  color: black;
+ text-align: center; 
+  background-color: #fefaf3;
+}.line {
+  display: inline-block;
+  width: 50px;
+  height: 10px;
+  background-color: #f8cb8a;
+}.text-about {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+
+.planet-img {
+  width: 300px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.planet-img:hover {
+  width: 400px;
+  opacity: 1;
+}
+.planet-img {
+  width: 300px;
+  border-radius: 10px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.planet-img:hover {
+  width: 400px;
+  opacity: 1;
+}
+.images {
+width: fit-content;
+margin: 0 auto; }
+.planet-img {
+  width: 300px;
+  margin-left: 50px;
+  border-radius: 10px;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+}
+
+.planet-img:hover {
+  width: 400px;
+  opacity: 1;
+}
+
+.images-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 850px;
+  padding: 60px;
+  background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+  animation: gradientAnimation 5s infinite;
+}
+
+.images {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+  }
+  50% {
+    background-image: radial-gradient(circle, #00d4ff 0%, #5c0067 100%);
+  }
+  100% {
+    background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+  }
+}
